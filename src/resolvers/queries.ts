@@ -54,13 +54,3 @@ export const Query = {
     }
   },
 }
-
-// export const Chat = {
-//   messages: (_:{messages:Message[]},__:any,context:{messages:Message[]}) => {
-//       return context.messages.map(i => ({
-//         ...i,
-//         user:i.user,
-//         message: i.message,
-//       }))
-//     },
-// }
